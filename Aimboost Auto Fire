@@ -1,0 +1,10 @@
+_G.aimbot = true;
+while _G.aimbot == true do
+    local args = {[1] = workspace.Target}
+    game:GetService("ReplicatedStorage").NewRayCastEvent:FireServer(unpack(args))
+    wait()
+    game:GetService("ReplicatedStorage").NewRayCastEvent:FireServer(unpack(args))
+    wait()
+end
+
+
