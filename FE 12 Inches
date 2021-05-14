@@ -1,9 +1,4 @@
-game["Run Service"].RenderStepped:connect(function()
-   settings().Physics.AllowSleep = false
-   setsimulationradius(math.huge*math.huge,math.huge*math.huge)
-end)
-
-print("Loaded Network Ownership Bypass!")
+--you need 10 country fedora hats
 
 --[[
 IronBrew:tm: obfuscation; Version 2.7.2
