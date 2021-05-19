@@ -1,0 +1,4 @@
+_G.PowerfulNet = false -- Turn on if u want best net, BUT SUPER LAGGY
+_G.Jitteryness = Vector3.new(50,0,0) -- set it to high value if ur part fall, default is -30
+_G.CustomGui = false -- if you have custom gui turn this on, put the custom gui script below this loadstring
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sylixe/MiztHub/master/MainFolder/uqXAxyVdQpWTcRCdFXU6Yt2meuDkYcLUDN4SJRekQWZ5wp368zKHreYT4w82AH4U.lua",true))()
